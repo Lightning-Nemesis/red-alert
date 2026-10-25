@@ -1,0 +1,91 @@
+{
+  "course_id": "cs3500",
+  "name": "CS 3500",
+  "scheme": "weighted",
+  "groups": [
+    {
+      "id": "ed",
+      "name": "Ed discussion posts",
+      "weight": 10,
+      "count": 10,
+      "quote": "Participation: 10 weekly Ed Discussion posts, 1% each."
+    },
+    {
+      "id": "attend",
+      "name": "Attendance",
+      "weight": 5,
+      "count": 25,
+      "quote": "Attendance is 5% (25 Tuesday lectures, 0.2% each)."
+    },
+    {
+      "id": "hw",
+      "name": "Homework",
+      "weight": 25,
+      "count": 8,
+      "drop_lowest": 1,
+      "quote": "Homework 25% (8 assignments, lowest dropped)."
+    },
+    {
+      "id": "project",
+      "name": "Group project",
+      "weight": 25,
+      "count": 3,
+      "quote": "The group project (3 milestones) is 25%."
+    },
+    {
+      "id": "mid",
+      "name": "Midterm",
+      "weight": 15,
+      "count": 1,
+      "quote": "Midterm exam 15%."
+    },
+    {
+      "id": "final",
+      "name": "Final",
+      "weight": 20,
+      "count": 1,
+      "quote": "Final exam 20%."
+    }
+  ],
+  "cutoffs": {
+    "A": 93,
+    "A-": 90,
+    "B+": 87,
+    "B": 83,
+    "B-": 80,
+    "C+": 77,
+    "C": 73,
+    "D": 60
+  },
+  "cutoffs_quote": "Letter grades: A >= 93, A- >= 90, B+ >= 87, B >= 83, B- >= 80, C+ >= 77, C >= 73, D >= 60.",
+  "late_policy": {
+    "accepts_late": false,
+    "late_days_budget": 3,
+    "quote": "You get 3 late days for the semester, no questions asked. Otherwise late work is not accepted."
+  },
+  "participation": [
+    {
+      "id": "cs_lecture",
+      "title": "CS 3500 lecture",
+      "group": "attend",
+      "points_each": 1,
+      "days": [
+        "TU"
+      ],
+      "start": "14:00",
+      "minutes": 60,
+      "quote": "Attendance is taken at every Tuesday lecture."
+    }
+  ],
+  "exams": [
+    {
+      "id": "cs_mid",
+      "title": "CS 3500 Midterm",
+      "group": "mid",
+      "points": 100,
+      "at": "2026-11-11T18:00:00-05:00",
+      "minutes": 90,
+      "quote": "Midterm: Wednesday Nov 11, 6-7:30 pm."
+    }
+  ]
+}

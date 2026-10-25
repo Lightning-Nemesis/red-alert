@@ -1,0 +1,664 @@
+{
+  "now": "2026-11-02T22:40:00-05:00",
+  "timezone": "America/New_York",
+  "preferences": {
+    "sleep_start": "00:30",
+    "sleep_hours": 7.5,
+    "daily_cap_hours": 5,
+    "buffer_percent": 15,
+    "horizon_days": 21,
+    "targets": {
+      "econ201": "B+",
+      "cs3500": "A"
+    }
+  },
+  "courses": [
+    {
+      "course_id": "econ201",
+      "current_percent": 86.9,
+      "graded": [
+        {
+          "item_id": "ps1",
+          "group": "ps",
+          "score": 9,
+          "out_of": 10
+        },
+        {
+          "item_id": "ps2",
+          "group": "ps",
+          "score": 10,
+          "out_of": 10
+        },
+        {
+          "item_id": "ps3",
+          "group": "ps",
+          "score": 8,
+          "out_of": 10
+        },
+        {
+          "item_id": "ps4",
+          "group": "ps",
+          "score": 9,
+          "out_of": 10
+        },
+        {
+          "item_id": "ps5",
+          "group": "ps",
+          "score": 9,
+          "out_of": 10
+        },
+        {
+          "item_id": "quiz1",
+          "group": "quiz",
+          "score": 8,
+          "out_of": 10
+        },
+        {
+          "item_id": "quiz2",
+          "group": "quiz",
+          "score": 9,
+          "out_of": 10
+        },
+        {
+          "item_id": "quiz3",
+          "group": "quiz",
+          "score": 7,
+          "out_of": 10
+        },
+        {
+          "item_id": "quiz4",
+          "group": "quiz",
+          "score": 9,
+          "out_of": 10
+        },
+        {
+          "item_id": "quiz5",
+          "group": "quiz",
+          "score": 8,
+          "out_of": 10
+        },
+        {
+          "item_id": "econ_mid1",
+          "group": "mid",
+          "score": 82,
+          "out_of": 100
+        },
+        {
+          "item_id": "poll",
+          "group": "part",
+          "score": 95,
+          "out_of": 100
+        }
+      ]
+    },
+    {
+      "course_id": "cs3500",
+      "current_percent": 92.4,
+      "late_days_left": 2,
+      "graded": [
+        {
+          "item_id": "ed_w1",
+          "group": "ed",
+          "score": 1,
+          "out_of": 1
+        },
+        {
+          "item_id": "ed_w2",
+          "group": "ed",
+          "score": 1,
+          "out_of": 1
+        },
+        {
+          "item_id": "ed_w3",
+          "group": "ed",
+          "score": 1,
+          "out_of": 1
+        },
+        {
+          "item_id": "ed_w4",
+          "group": "ed",
+          "score": 1,
+          "out_of": 1
+        },
+        {
+          "item_id": "ed_w5",
+          "group": "ed",
+          "score": 1,
+          "out_of": 1
+        },
+        {
+          "item_id": "ed_w6",
+          "group": "ed",
+          "score": 0,
+          "out_of": 1
+        },
+        {
+          "item_id": "ed_w7",
+          "group": "ed",
+          "score": 1,
+          "out_of": 1
+        },
+        {
+          "item_id": "ed_w8",
+          "group": "ed",
+          "score": 1,
+          "out_of": 1
+        },
+        {
+          "item_id": "hw1",
+          "group": "hw",
+          "score": 95,
+          "out_of": 100
+        },
+        {
+          "item_id": "hw2",
+          "group": "hw",
+          "score": 88,
+          "out_of": 100
+        },
+        {
+          "item_id": "hw3",
+          "group": "hw",
+          "score": 92,
+          "out_of": 100
+        },
+        {
+          "item_id": "hw4",
+          "group": "hw",
+          "score": 90,
+          "out_of": 100
+        },
+        {
+          "item_id": "hw5",
+          "group": "hw",
+          "score": 85,
+          "out_of": 100
+        },
+        {
+          "item_id": "m1",
+          "group": "project",
+          "score": 93,
+          "out_of": 100
+        },
+        {
+          "item_id": "att1",
+          "group": "attend",
+          "score": 1,
+          "out_of": 1
+        },
+        {
+          "item_id": "att2",
+          "group": "attend",
+          "score": 1,
+          "out_of": 1
+        },
+        {
+          "item_id": "att3",
+          "group": "attend",
+          "score": 1,
+          "out_of": 1
+        },
+        {
+          "item_id": "att4",
+          "group": "attend",
+          "score": 0,
+          "out_of": 1
+        },
+        {
+          "item_id": "att5",
+          "group": "attend",
+          "score": 1,
+          "out_of": 1
+        },
+        {
+          "item_id": "att6",
+          "group": "attend",
+          "score": 1,
+          "out_of": 1
+        },
+        {
+          "item_id": "att7",
+          "group": "attend",
+          "score": 1,
+          "out_of": 1
+        },
+        {
+          "item_id": "att8",
+          "group": "attend",
+          "score": 1,
+          "out_of": 1
+        },
+        {
+          "item_id": "att9",
+          "group": "attend",
+          "score": 1,
+          "out_of": 1
+        }
+      ]
+    },
+    {
+      "course_id": "psyc101",
+      "graded": [
+        {
+          "item_id": "rr1",
+          "group": "rr",
+          "score": 5,
+          "out_of": 5
+        },
+        {
+          "item_id": "rr2",
+          "group": "rr",
+          "score": 5,
+          "out_of": 5
+        },
+        {
+          "item_id": "rr3",
+          "group": "rr",
+          "score": 4,
+          "out_of": 5
+        },
+        {
+          "item_id": "rr4",
+          "group": "rr",
+          "score": 5,
+          "out_of": 5
+        },
+        {
+          "item_id": "rr5",
+          "group": "rr",
+          "score": 5,
+          "out_of": 5
+        },
+        {
+          "item_id": "rr6",
+          "group": "rr",
+          "score": 3,
+          "out_of": 5
+        },
+        {
+          "item_id": "rr7",
+          "group": "rr",
+          "score": 5,
+          "out_of": 5
+        },
+        {
+          "item_id": "lab1",
+          "group": "lab",
+          "score": 44,
+          "out_of": 50
+        },
+        {
+          "item_id": "lab2",
+          "group": "lab",
+          "score": 41,
+          "out_of": 50
+        },
+        {
+          "item_id": "psyc_exam1",
+          "group": "exam",
+          "score": 85,
+          "out_of": 100
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "ed_w9",
+      "course_id": "cs3500",
+      "group": "ed",
+      "title": "Ed post week 9",
+      "type": "discussion",
+      "points": 1,
+      "due": "2026-11-03T20:00:00-05:00",
+      "estimate_minutes": 15
+    },
+    {
+      "id": "ed_w10",
+      "course_id": "cs3500",
+      "group": "ed",
+      "title": "Ed post week 10",
+      "type": "discussion",
+      "points": 1,
+      "due": "2026-11-10T20:00:00-05:00",
+      "estimate_minutes": 15
+    },
+    {
+      "id": "ed_w11",
+      "course_id": "cs3500",
+      "group": "ed",
+      "title": "Ed post week 11",
+      "type": "discussion",
+      "points": 1,
+      "due": "2026-11-17T20:00:00-05:00",
+      "estimate_minutes": 15
+    },
+    {
+      "id": "hw6",
+      "course_id": "cs3500",
+      "group": "hw",
+      "title": "HW 6: Visitor pattern",
+      "type": "problem_set",
+      "points": 100,
+      "due": "2026-11-06T23:59:00-05:00",
+      "estimate_minutes": 300,
+      "prepares_for": [
+        "cs_mid"
+      ]
+    },
+    {
+      "id": "m2",
+      "course_id": "cs3500",
+      "group": "project",
+      "title": "Project milestone 2",
+      "type": "project",
+      "points": 100,
+      "due": "2026-11-13T23:59:00-05:00",
+      "estimate_minutes": 720,
+      "group_project": true
+    },
+    {
+      "id": "ps6",
+      "course_id": "econ201",
+      "group": "ps",
+      "title": "Problem Set 6",
+      "type": "problem_set",
+      "points": 10,
+      "due": "2026-11-05T23:59:00-05:00",
+      "available_until": "2026-11-08T23:59:00-05:00",
+      "estimate_minutes": 480,
+      "rubric": [
+        {
+          "part": "Q1",
+          "points": 3
+        },
+        {
+          "part": "Q2",
+          "points": 3
+        },
+        {
+          "part": "Q3",
+          "points": 2
+        },
+        {
+          "part": "Q4 (bonus graph)",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "id": "quiz6",
+      "course_id": "econ201",
+      "group": "quiz",
+      "title": "Quiz 6",
+      "type": "quiz",
+      "points": 10,
+      "due": "2026-11-09T23:59:00-05:00",
+      "estimate_minutes": 30,
+      "prepares_for": [
+        "econ_mid2"
+      ]
+    },
+    {
+      "id": "ps7",
+      "course_id": "econ201",
+      "group": "ps",
+      "title": "Problem Set 7",
+      "type": "problem_set",
+      "points": 10,
+      "due": "2026-11-12T23:59:00-05:00",
+      "available_until": "2026-11-15T23:59:00-05:00",
+      "estimate_minutes": 300
+    },
+    {
+      "id": "rr8",
+      "course_id": "psyc101",
+      "group": "rr",
+      "title": "Reading response 8",
+      "type": "reading",
+      "points": 5,
+      "due": "2026-11-04T23:59:00-05:00",
+      "estimate_minutes": 30
+    },
+    {
+      "id": "rr9",
+      "course_id": "psyc101",
+      "group": "rr",
+      "title": "Reading response 9",
+      "type": "reading",
+      "points": 5,
+      "due": "2026-11-11T23:59:00-05:00",
+      "estimate_minutes": 30
+    },
+    {
+      "id": "hw7",
+      "course_id": "cs3500",
+      "group": "hw",
+      "title": "HW 7: Observer pattern",
+      "type": "problem_set",
+      "points": 100,
+      "due": "2026-11-13T23:59:00-05:00",
+      "estimate_minutes": 300
+    },
+    {
+      "id": "quiz7",
+      "course_id": "econ201",
+      "group": "quiz",
+      "title": "Quiz 7",
+      "type": "quiz",
+      "points": 10,
+      "due": "2026-11-16T23:59:00-05:00",
+      "estimate_minutes": 30
+    },
+    {
+      "id": "paper",
+      "course_id": "psyc101",
+      "group": "paper",
+      "title": "Research paper draft",
+      "type": "essay",
+      "points": 100,
+      "due": "2026-11-16T23:59:00-05:00",
+      "estimate_minutes": 600
+    },
+    {
+      "id": "lab3",
+      "course_id": "psyc101",
+      "group": "lab",
+      "title": "Lab report 3",
+      "type": "lab_report",
+      "points": 50,
+      "due": "2026-11-09T23:59:00-05:00",
+      "estimate_minutes": 360,
+      "rubric": [
+        {
+          "part": "Intro",
+          "points": 10
+        },
+        {
+          "part": "Methods",
+          "points": 10
+        },
+        {
+          "part": "Results",
+          "points": 15
+        },
+        {
+          "part": "Discussion",
+          "points": 10
+        },
+        {
+          "part": "Section 4: extension questions",
+          "points": 5
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "stripe",
+      "title": "Stripe SWE intern final round",
+      "start": "2026-11-06T11:00:00-05:00",
+      "end": "2026-11-06T12:00:00-05:00",
+      "kind": "interview",
+      "importance": "fixed",
+      "prep_minutes": 180
+    },
+    {
+      "id": "fair",
+      "title": "Career fair",
+      "start": "2026-11-10T13:00:00-05:00",
+      "end": "2026-11-10T16:00:00-05:00",
+      "kind": "career",
+      "importance": "protected"
+    },
+    {
+      "id": "club",
+      "title": "Hackathon club social",
+      "start": "2026-11-07T19:00:00-05:00",
+      "end": "2026-11-07T21:00:00-05:00",
+      "kind": "social",
+      "importance": "protected"
+    }
+  ],
+  "busy": [
+    {
+      "title": "ECON 201 lecture",
+      "start": "2026-11-02T10:00:00-05:00",
+      "end": "2026-11-02T10:50:00-05:00"
+    },
+    {
+      "title": "PSYC 101 lecture",
+      "start": "2026-11-03T11:00:00-05:00",
+      "end": "2026-11-03T12:15:00-05:00"
+    },
+    {
+      "title": "CS 3500 lecture",
+      "start": "2026-11-03T14:00:00-05:00",
+      "end": "2026-11-03T15:00:00-05:00"
+    },
+    {
+      "title": "ECON 201 lecture",
+      "start": "2026-11-04T10:00:00-05:00",
+      "end": "2026-11-04T10:50:00-05:00"
+    },
+    {
+      "title": "PSYC 101 lecture",
+      "start": "2026-11-05T11:00:00-05:00",
+      "end": "2026-11-05T12:15:00-05:00"
+    },
+    {
+      "title": "CS 3500 lab",
+      "start": "2026-11-05T15:00:00-05:00",
+      "end": "2026-11-05T16:40:00-05:00"
+    },
+    {
+      "title": "ECON 201 lecture",
+      "start": "2026-11-06T10:00:00-05:00",
+      "end": "2026-11-06T10:50:00-05:00"
+    },
+    {
+      "title": "Work shift (library)",
+      "start": "2026-11-07T12:00:00-05:00",
+      "end": "2026-11-07T17:00:00-05:00"
+    },
+    {
+      "title": "ECON 201 lecture",
+      "start": "2026-11-09T10:00:00-05:00",
+      "end": "2026-11-09T10:50:00-05:00"
+    },
+    {
+      "title": "PSYC 101 lecture",
+      "start": "2026-11-10T11:00:00-05:00",
+      "end": "2026-11-10T12:15:00-05:00"
+    },
+    {
+      "title": "CS 3500 lecture",
+      "start": "2026-11-10T14:00:00-05:00",
+      "end": "2026-11-10T15:00:00-05:00"
+    },
+    {
+      "title": "ECON 201 lecture",
+      "start": "2026-11-11T10:00:00-05:00",
+      "end": "2026-11-11T10:50:00-05:00"
+    },
+    {
+      "title": "PSYC 101 lecture",
+      "start": "2026-11-12T11:00:00-05:00",
+      "end": "2026-11-12T12:15:00-05:00"
+    },
+    {
+      "title": "CS 3500 lab",
+      "start": "2026-11-12T15:00:00-05:00",
+      "end": "2026-11-12T16:40:00-05:00"
+    },
+    {
+      "title": "ECON 201 lecture",
+      "start": "2026-11-13T10:00:00-05:00",
+      "end": "2026-11-13T10:50:00-05:00"
+    },
+    {
+      "title": "Work shift (library)",
+      "start": "2026-11-14T12:00:00-05:00",
+      "end": "2026-11-14T17:00:00-05:00"
+    },
+    {
+      "title": "ECON 201 lecture",
+      "start": "2026-11-16T10:00:00-05:00",
+      "end": "2026-11-16T10:50:00-05:00"
+    },
+    {
+      "title": "PSYC 101 lecture",
+      "start": "2026-11-17T11:00:00-05:00",
+      "end": "2026-11-17T12:15:00-05:00"
+    },
+    {
+      "title": "CS 3500 lecture",
+      "start": "2026-11-17T14:00:00-05:00",
+      "end": "2026-11-17T15:00:00-05:00"
+    },
+    {
+      "title": "ECON 201 lecture",
+      "start": "2026-11-18T10:00:00-05:00",
+      "end": "2026-11-18T10:50:00-05:00"
+    },
+    {
+      "title": "PSYC 101 lecture",
+      "start": "2026-11-19T11:00:00-05:00",
+      "end": "2026-11-19T12:15:00-05:00"
+    },
+    {
+      "title": "CS 3500 lab",
+      "start": "2026-11-19T15:00:00-05:00",
+      "end": "2026-11-19T16:40:00-05:00"
+    },
+    {
+      "title": "ECON 201 lecture",
+      "start": "2026-11-20T10:00:00-05:00",
+      "end": "2026-11-20T10:50:00-05:00"
+    },
+    {
+      "title": "Work shift (library)",
+      "start": "2026-11-21T12:00:00-05:00",
+      "end": "2026-11-21T17:00:00-05:00"
+    },
+    {
+      "title": "ECON 201 lecture",
+      "start": "2026-11-23T10:00:00-05:00",
+      "end": "2026-11-23T10:50:00-05:00"
+    }
+  ],
+  "todos": [
+    {
+      "id": "rent",
+      "title": "Pay rent",
+      "due": "2026-11-05T23:59:00-05:00",
+      "estimate_minutes": 15,
+      "must_do": true
+    },
+    {
+      "id": "laundry",
+      "title": "Laundry",
+      "estimate_minutes": 45
+    }
+  ]
+}

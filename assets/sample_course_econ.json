@@ -1,0 +1,91 @@
+{
+  "course_id": "econ201",
+  "name": "ECON 201",
+  "scheme": "weighted",
+  "groups": [
+    {
+      "id": "ps",
+      "name": "Problem sets",
+      "weight": 4,
+      "count": 8,
+      "drop_lowest": 1,
+      "quote": "Problem sets are worth 4% of the final grade (8 sets, lowest one dropped)."
+    },
+    {
+      "id": "quiz",
+      "name": "Quizzes",
+      "weight": 16,
+      "count": 8,
+      "drop_lowest": 2,
+      "quote": "Eight weekly quizzes make up 16%; your two lowest quiz scores are dropped."
+    },
+    {
+      "id": "mid",
+      "name": "Midterms",
+      "weight": 40,
+      "count": 2,
+      "quote": "Two midterms, 20% each."
+    },
+    {
+      "id": "final",
+      "name": "Final exam",
+      "weight": 35,
+      "count": 1,
+      "quote": "The cumulative final exam is 35% of your grade."
+    },
+    {
+      "id": "part",
+      "name": "Participation",
+      "weight": 5,
+      "count": 1,
+      "quote": "Participation (in-class polls) counts for 5%."
+    }
+  ],
+  "cutoffs": {
+    "A": 93,
+    "A-": 90,
+    "B+": 87,
+    "B": 83,
+    "B-": 80,
+    "C+": 77,
+    "C": 73,
+    "C-": 70,
+    "D": 60
+  },
+  "cutoffs_quote": "A 93-100, A- 90-92.9, B+ 87-89.9, B 83-86.9, B- 80-82.9, C+ 77-79.9, C 73-76.9, C- 70-72.9, D 60-69.9.",
+  "pass_percent": 60,
+  "late_policy": {
+    "accepts_late": true,
+    "penalty_per_day": 10,
+    "max_days": 3,
+    "extensions": "on request",
+    "quote": "Late problem sets lose 10% per day and are not accepted after 3 days. Email me before the deadline if you need an extension."
+  },
+  "replacement": [
+    {
+      "from": "final",
+      "to": "mid",
+      "quote": "If your final exam score is higher than your lowest midterm, it replaces that midterm."
+    }
+  ],
+  "gates": [
+    {
+      "group": "final",
+      "min_percent": 60,
+      "quote": "You must score at least 60% on the final to pass the course."
+    }
+  ],
+  "exams": [
+    {
+      "id": "econ_mid2",
+      "title": "ECON Midterm 2",
+      "group": "mid",
+      "points": 100,
+      "at": "2026-11-12T09:00:00-05:00",
+      "minutes": 75,
+      "study_hours": 10,
+      "quote": "Midterm 2: Thursday, November 12, in class."
+    }
+  ],
+  "ambiguities": []
+}

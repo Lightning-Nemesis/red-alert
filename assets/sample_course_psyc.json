@@ -1,0 +1,61 @@
+{
+  "course_id": "psyc101",
+  "name": "PSYC 101",
+  "scheme": "points",
+  "groups": [
+    {
+      "id": "rr",
+      "name": "Reading responses",
+      "count": 12,
+      "points_each": 5,
+      "quote": "12 reading responses, 5 points each."
+    },
+    {
+      "id": "lab",
+      "name": "Lab reports",
+      "count": 4,
+      "points_each": 50,
+      "quote": "4 lab reports, 50 points each."
+    },
+    {
+      "id": "exam",
+      "name": "Exams",
+      "count": 3,
+      "points_each": 100,
+      "quote": "3 exams, 100 points each."
+    },
+    {
+      "id": "paper",
+      "name": "Research paper",
+      "count": 1,
+      "points_each": 100,
+      "quote": "Research paper draft, 100 points."
+    }
+  ],
+  "cutoffs": {
+    "A": 93,
+    "A-": 90,
+    "B+": 87,
+    "B": 83,
+    "B-": 80,
+    "C+": 77,
+    "C": 73,
+    "D": 60
+  },
+  "cutoffs_quote": "Your grade is your total points out of 660: A 93%, A- 90%, B+ 87%, B 83% ...",
+  "late_policy": {
+    "accepts_late": false,
+    "quote": "Late work is not accepted."
+  },
+  "exams": [
+    {
+      "id": "psyc_exam2",
+      "title": "PSYC Exam 2",
+      "group": "exam",
+      "points": 100,
+      "at": "2026-11-18T10:00:00-05:00",
+      "minutes": 75,
+      "quote": "Exam 2 is on November 18."
+    }
+  ]
+}
