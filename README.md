@@ -23,7 +23,7 @@ Skip the Nov 10 CS lecture: it clashes with the career fair, which comes first.
 Text this link to Cubbie and reply "yes":
 
 ```text
-https://github.com/<owner>/<repo>
+https://github.com/Lightning-Nemesis/red-alert
 ```
 
 Then text "red alert". It needs Canvas connected to Cubbie; Google (Calendar, Gmail, Tasks) makes it sharper. No
