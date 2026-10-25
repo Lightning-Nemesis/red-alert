@@ -1,6 +1,6 @@
 ---
 name: red-alert
-description: Triages a crunch by weighing every assignment, exam, meeting and to-do by the grade it's worth per hour, then decides what to do, shrink, shift or skip, with reasons. Use when the student texts "red alert", says they're drowning, swamped, behind or panicking, asks what to do tonight or this week or what they can skip, or has several deadlines, midterms, projects or interviews landing within a few weeks. It reads each syllabus's fine print (weights, drop-lowest rules, late penalties, participation points, must-pass rules) and does exact grade math, which the built-in study-plan-builder does not; use it even if the student only says "help, everything is due".
+description: Triages a crunch by weighing every assignment, exam, meeting and to-do by the grade it's worth per hour, then decides what to do, shrink, shift or skip, with reasons. Use when the student texts an alarm like "red alert", "code red", "SOS", "mayday", "911", "help me survive", "hell week" or 🚨, says they're drowning, swamped, behind or panicking, asks what to do tonight or this week or what they can skip, or has several deadlines, midterms, projects or interviews landing within a few weeks. It reads each syllabus's fine print (weights, drop-lowest rules, late penalties, participation points, must-pass rules) and does exact grade math, which the built-in study-plan-builder does not; use it even if the student only says "help, everything is due".
 ---
 
 # Red Alert
@@ -12,7 +12,9 @@ of the course grade.
 
 ## When to use
 
-- "red alert" (the main trigger; start right away, no questions first)
+- "red alert" or any alarm meaning the same, in any capitalization: "code red", "SOS", "mayday", "911",
+  "DEFCON 1", "help me survive this week", "hell week", "I'm cooked", "everything everywhere all at once", 🚨 or
+  🆘 on its own. These are the main triggers: start right away, no questions first.
 - "I'm drowning, 3 midterms and a project next week"
 - "What should I do tonight?" / "What can I skip this week?"
 - "What if I get a C on the midterm?" / "What if I skip the lab?"
